@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    font-family: "Roboto", sans-serif;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+main {
+    margin: 0 auto;
+    background-color: rgb(236, 243, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+details {
+    border: 1px solid grey;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+details[open] {
+    border: 2px solid lightblue;
+    padding: 0;
+}
+
+details[open] summary {
+    margin: 0;
+    padding: 4px;
+    color: blue;
+    background-color: lightblue;
+    font-weight: 800;
+}

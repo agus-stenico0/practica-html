@@ -3,14 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dashboard Admin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
     <aside>
         <h2>Appwise Admin</h2>
         <nav>
             <ul>
+                <li>Dashboard</li>
                 <li>Usuarios</li>
                 <li>Reportes</li>
                 <li>Configuración</li>
@@ -20,14 +25,14 @@
     </aside>
     <main>
         <header>
-            <input type="search" name="" id="">
-            <div>
-                <img src="" alt="Foto usuario">
+            <input type="search" name="" id="" placeholder="Buscar">
+            <div id="perfil">
                 <p>Admin</p>
+                <img src="./assets/avatar.png" alt="Foto usuario">
             </div>
         </header>
-
-        <section id="cards">
+        <h1>Resumen general</h1>
+        <section class="main" id="cards">
             <article>
                 <h3>Usuarios Activos</h3>
                 <p>1.250</p>
@@ -42,7 +47,7 @@
             </article>
         </section>
 
-        <section id="act-reciente">
+        <section class="main" id="act-reciente">
             <h2>Actividad Reciente</h2>
             <table>
                 <thead>
@@ -76,8 +81,8 @@
             </table>
         </section>
     </main>
-    <dialog open>
-        <h3>Añadir Nuevo Usuario</h3>
+    <dialog >
+        <h3>Nuevo Usuario</h3>
         <form action="">
             <input type="text" name="" id="">
             <button>Guardar</button>
