@@ -4,33 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrito de compras</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Appwise Store</h1>
-        <button>Carrito(2)</button>
+        <button id="btn-carrito">Carrito(2)</button>
     </header>
 
     <main>
         <section id="productos">
             <h2>Nuestros productos</h2>
-            <div>
-                <img src="./assets/auricular_gamer.webp" alt="" width="100">
-                <h3>Auricular Gamer</h3>
-                <p>$29.99</p>    
-                <button>Añadir al carrito</button>
-            </div>
-            <div>
-                <img src="./assets/teclado_mecanico.webp" alt="" width="100">
-                <h3>Teclado Mecanico</h3>
-                <p>$79.99</p>    
-                <button>Añadir al carrito</button>
-            </div>
-            <div>
-                <img src="./assets/mouse_gamer.webp" alt="" width="100">
-                <h3>Mouse Gamer</h3>
-                <p>$39.99</p>    
-                <button>Añadir al carrito</button>
+            <div class="cards">
+                <div class="card">
+                    <img src="./assets/auricular_gamer.webp" alt="" width="100">
+                    <h3>Auricular Gamer</h3>
+                    <p class="precio">$29.99</p>    
+                    <button class="btn-agregar">Añadir al carrito</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/teclado_mecanico.webp" alt="" width="100">
+                    <h3>Teclado Mecanico</h3>
+                    <p class="precio">$79.99</p>    
+                    <button class="btn-agregar">Añadir al carrito</button>
+                </div>
+                <div class="card">
+                    <img src="./assets/mouse_gamer.webp" alt="" width="100">
+                    <h3>Mouse Gamer</h3>
+                    <p class="precio">$39.99</p>    
+                    <button class="btn-agregar">Añadir al carrito</button>
+                </div>
+
             </div>
         </section>
         <aside>
@@ -48,8 +55,8 @@
                 </li>
             </ul>
             <hr>
-            <h3>Total: $99.98</h3>
-            <button>Finalizar compra</button>
+            <h3 id="total">Total: $99.98</h3>
+            <button id="btn-finalizar">Finalizar compra</button>
         </aside>
     </main>
     

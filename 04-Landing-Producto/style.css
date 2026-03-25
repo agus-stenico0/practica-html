@@ -1,0 +1,78 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.roboto{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+    background-color: rgb(27, 26, 26);
+    color: #fff;
+}
+
+header button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(49, 119, 199);
+    color: #fff;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+section video {
+    border: none;
+    border-radius: 20px;
+}
+
+#productos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    text-align: center;
+    width: 600px;
+    border-collapse: collapse;
+}
+table thead tr th{
+    border: 1px solid black;
+    padding: 10px;
+}
+table tbody tr td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(27, 27, 39);
+}
+
+footer p {
+    color: #fff;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}

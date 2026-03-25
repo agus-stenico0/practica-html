@@ -1,0 +1,53 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+main {   
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 6px;
+    width: 600px;
+    padding: 12px;
+    margin-top: 12px;
+
+}
+h1 {
+    text-align: start;
+}
+p {
+    text-align: start;
+}
+table {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table thead tr th{
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: lightblue;
+}
+table tbody tr td{
+    border: 1px solid grey;
+    padding: 8px;
+}
+table tfoot td{
+    border: 1px solid grey;
+    padding: 8px;
+    text-align: center;
+}
